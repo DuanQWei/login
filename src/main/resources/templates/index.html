@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>登录</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content=""
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link rel="stylesheet" href="../layui/css/layui.css">
+	<link rel="stylesheet" href="../layui/layui.all.js">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	<!-- web-fonts -->
+	<link href="http://maxcdn.bootstrapcdn.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- bg effect -->
+	<div id="bg">
+		<canvas></canvas>
+		<canvas></canvas>
+		<canvas></canvas>
+	</div>
+	<!-- //bg effect -->
+	<!-- title -->
+	<h1>Login Form</h1>
+<br>
+
+	<div class="sub-main-w3">
+		<form action="#" method="post">
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-user"></i>
+					用户名
+				</label>
+				<input placeholder="请输入用户名" name="username" type="text" required="true">
+			</div>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					密码
+				</label>
+				<input placeholder="请输入密码" name="password" type="password" required="true">
+			</div>
+			<!-- checkbox -->
+			<div class="wthree-text">
+				<ul>
+					<li>
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>Stay Signed In</span>
+						</label>
+					</li>
+					<li>
+						<a href="#">Forgot Password?</a>
+					</li>
+				</ul>
+			</div>
+			<br>
+			<br>
+			<br>
+			<a href="/WeChat/login" class="layui-icon layui-icon-login-wechat" style="font-size: 30px; color: #1E9FFF;"></a>
+			<input type="submit" value="Log In">
+		</form>
+	</div>
+	<!-- //content -->
+
+	<!-- copyright -->
+
+
+
+	<!-- //copyright -->
+
+	<!-- Jquery -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- //Jquery -->
+
+	<!-- effect js -->
+	<script src="js/canva_moving_effect.js"></script>
+	<!-- //effect js -->
+
+</body>
+
+</html>
